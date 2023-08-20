@@ -2,7 +2,20 @@ body{
   display: flex;
 }
 
-h2{
+h2, .navbar-button{
   font-family: 'Poppins', sans-serif;
   
+}
+
+.navbar-button{
+  width: 130px;
+  padding: 8%;
+  border-radius: 20px;
+  border-style: none;
+  background-color: #bb6bd9;
+  color: #fefefe;
+}
+
+a{
+  color: inherit;
 }
